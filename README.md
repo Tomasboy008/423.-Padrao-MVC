@@ -17,17 +17,17 @@ Aula teória
   para um aplicação e seu FrameWork MVC vai destinar para onde vai a requisição.
   Essa é a primeira camada onde a requisição chega no Controler.
   
-  Exemplo de Fluxo 1.
-      Browser - requisicao de tela simples com menu.
-            Controler - encaminha para 
-                View - processa e devolve para o Browser.
+  Exemplo de Fluxo 1;
+      Browser - requisicao de tela simples com menu;
+            Controler - encaminha para;
+                View - processa e devolve para o Browser;
                 
-  Exemplo de fluxo 2.
-        Browser - requisicao de lista de clientes.
-            Controler - solicita a lista para 
-                Model - busca a informação e devolve,
-                    Controler - solicita outra lista com clientes excluidos por ex.
-                          Model - busca a informação novamente e devolve,
-                              Controler com sua necessidade atendida encaminha para
-                                  View - processa e devolve para o Browser.
+  Exemplo de fluxo 2;
+        Browser - requisicao de lista de clientes;
+            Controler - solicita a lista para;
+                Model - busca a informação e devolve;
+                    Controler - solicita outra lista com clientes excluidos por ex;
+                          Model - busca a informação novamente e devolve;
+                              Controler com sua necessidade atendida encaminha para;
+                                  View - processa e devolve para o Browser;
 }
